@@ -108,6 +108,9 @@ class Recipe:
         # Extract tags form notes
         self._create_tags()
 
+    def has_unknown_cooktime(self):
+        return (self._preptime + self._cooktime) <= 0
+
     def get_file_name(self):
         from core.validate_filename import convert_to_validate_filename
         return convert_to_validate_filename(self.title()) + ".pdf"
@@ -181,10 +184,10 @@ class Recipe:
 
     def base64_image(self):
         """Base64 encoding of the image"""
-        return base64.encodestring(self.image()).decode("utf-8")
+        return base64.encodebytes(self.image()).decode("utf-8")
 
     def base64_thumb(self):
-        return base64.encodestring(self.thumb()).decode("utf-8")
+        return base64.encodebytes(self.thumb()).decode("utf-8")
 
     def image(self):
         """Binary representation of the image"""
@@ -233,12 +236,19 @@ class Recipe:
 
     def total_time(self):
         """Preperation + Cookingtime"""
+        if self.has_unknown_cooktime():
+            return "N.A."
+
         return format_timespan(self._preptime + self._cooktime)
 
     def preptime(self) -> str:
+        if self.has_unknown_cooktime():
+            return "N.A."
         return format_timespan(self._preptime)
 
     def cooktime(self) -> str:
+        if self.has_unknown_cooktime():
+            return "N.A."
         return format_timespan(self._cooktime)
 
     def yields(self) -> float:

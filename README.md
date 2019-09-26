@@ -19,6 +19,13 @@ This program is used via commandline. An example call might be
 * *builder* A string which is added as metadata to all recipes
 * *disable_cache* use this option to enforce to recreate all recipes. By default only missing recipes in the export folder or updated in the database will be exported.
 
+### Customizing
+Under *example/customizing* is an example for custom recipe tags and custom recipe searches.
+The notes field of the gourmet recipe manager is interpreted as list of tags.
+Each line is interpreted as a tag.
+e.g. Vegan\nFavorite will result, that the recipe has the tags *Vegan* and *Favorite* set.
+ 
+
 ## Software-Architecture
 This program works after the following principle
 1. Read recipe from the gourmet database

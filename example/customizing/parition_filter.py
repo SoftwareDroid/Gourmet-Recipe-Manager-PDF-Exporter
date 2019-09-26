@@ -20,6 +20,8 @@ def time_partition(recipe: Recipe):
     prep_time: float = recipe._preptime
     cook_time: float = recipe._cooktime
     total_time_in_hours: float = (prep_time + cook_time) / (60.0**2)
+    if recipe.has_unknown_cooktime():
+        return "Z. Unknown cooking time"
     if total_time_in_hours < 1.0:
         return "A. Recipes < 1 h"
     elif total_time_in_hours <= 1.5:

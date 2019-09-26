@@ -7,11 +7,11 @@ from core.validate_filename import convert_to_validate_filename
 
 
 class SearchQuery:
-    def __init__(self, name: str, include_recipe: Callable[[Recipe], Optional[str]], sort_func):
+    def __init__(self, name: str, determine_recipe_class: Callable[[Recipe], Optional[str]], sort_recipes_in_class):
         # Recipe -> class if None exclude recipe and "" is default class
         self._name = name
-        self._include_recipe = include_recipe
-        self._sort_function = sort_func
+        self._include_recipe = determine_recipe_class
+        self._sort_function = sort_recipes_in_class
         self._result = []
 
     def get_results(self) -> List[Tuple[str, List[Tuple[Recipe, str]]]]:
