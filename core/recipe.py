@@ -143,6 +143,8 @@ class Recipe:
         return symbols
 
     def _create_tags(self):
+        if self._notes is None:
+            return
         lines = self._notes.splitlines()
 
         for line in lines:
@@ -211,7 +213,7 @@ class Recipe:
     def get_last_modified_date(self) -> str:
         """A human readable format of the last modified timestamp"""
         import datetime
-        return datetime.datetime.utcfromtimestamp(self._last_modified).strftime('%d-%m-%Y %H:%M')
+        return datetime.datetime.utcfromtimestamp(self._last_modified).strftime('%a %d %B, %Y %H:%M')
 
     def id(self) -> int:
         """The internal id of the recipe"""
@@ -241,6 +243,9 @@ class Recipe:
 
         return format_timespan(self._preptime + self._cooktime)
 
+    def total_time_in_seconds(self):
+        return self._preptime + self._cooktime
+
     def preptime(self) -> str:
         if self.has_unknown_cooktime():
             return "N.A."
@@ -257,4 +262,6 @@ class Recipe:
         return self._yields
 
     def yields_unit(self) -> str:
+        if self._yield_unit is None:
+            return ""
         return self._yield_unit.capitalize()
