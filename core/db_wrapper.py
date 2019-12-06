@@ -23,11 +23,14 @@ def load_all_recipes(db_dir: str) -> Sequence[Recipe]:
     c.execute('SELECT * FROM recipe')
     recipes = []
     for row in c.fetchall():
-        recipe = Recipe(id=row[0], title=row[1], instructions=row[2], notes=row[3], cuisine=row[4], rating=row[5],
-                        description=row[6],
-                        source=row[7], preptime=row[8], cooktime=row[9], servings=row[10], yields=row[11],
-                        yield_unit=row[12], image=row[13],
-                        thumb=row[14], deleted=row[15], link=row[18], last_modified=row[19])
+        try:
+            recipe = Recipe(id=row[0], title=row[1], instructions=row[2], notes=row[3], cuisine=row[4], rating=row[5],
+                            description=row[6],
+                            source=row[7], preptime=row[8], cooktime=row[9], servings=row[10], yields=row[11],
+                            yield_unit=row[12], image=row[13],
+                            thumb=row[14], deleted=row[15], link=row[18], last_modified=row[19])
+        except Exception as e:
+            print("Error by reading recipe from db " + str(e))
         recipe._obj_ingredients = get_all_ingredients(c2, recipe.id())
         recipes.append(recipe)
     conn.close()

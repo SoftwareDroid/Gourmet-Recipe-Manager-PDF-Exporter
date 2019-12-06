@@ -107,6 +107,15 @@ class Recipe:
         self._tags = set()
         # Extract tags form notes
         self._create_tags()
+        self.validate_recipe()
+
+    def validate_recipe(self):
+        if self._title is None or self._title == "New Recipe":
+            raise Exception("Invalid recipe name " + str(self._title))
+        if self._yields is None:
+            raise Exception("No portions for the recipe " + str(self._title))
+        if self.deleted():
+            raise Exception("Recipe deleted " + str(self._title))
 
     def has_unknown_cooktime(self):
         return (self._preptime + self._cooktime) <= 0
