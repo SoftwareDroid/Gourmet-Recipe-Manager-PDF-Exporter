@@ -42,6 +42,7 @@ options1 = {
     "link_prefix": program_options.link_dir,
     "export_images": program_options.include_images,
     "builder": program_options.builder,
+    "db_dir": program_options.db_dir,
 }
 
 # Write result

@@ -39,7 +39,7 @@ class SearchQuery:
             for result_class in result_classes:
                 result_classes[result_class] = sorted(result_classes[result_class], key=self._sort_function)
         # Convert the result in a sequence
-        self._result = sorted(result_classes.items(),key=lambda t: t[0])
+        self._result = sorted(result_classes.items(), key=lambda t: t[0])
 
         # Write the result to a pdf
         create_search_result(self, options)
@@ -52,6 +52,17 @@ class RecipeSearch:
         self._recipe_to_export_file = {}
         self._queries = queries
         self._options["cache"] = Cache(options["export_folder"] + "/.cache.obj")
+
+    def copy_db(self):
+        from shutil import copyfile
+        target_folder: str = self._options["export_folder"]
+        print(self._options)
+        assert "db_dir" in self._options, "DB Path not specified"
+        db = self._options["db_dir"]
+        dest = target_folder + "/recipes.db"
+        print("Copy DB ", db, " to ", dest)
+        copyfile(db, dest)
+        print("Copy complete")
 
     def create_pdfs(self):
         """Create all pdfs"""
@@ -76,5 +87,6 @@ class RecipeSearch:
             for query in self._queries:
                 print("Run Search Query: ", query.name())
                 query.run(query_input, self._options)
+            self.copy_db()
         else:
             print("Skip creating searches  because there are no changes.")
