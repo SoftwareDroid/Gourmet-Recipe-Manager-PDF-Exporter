@@ -55,7 +55,7 @@ class RecipeSearch:
 
     def copy_db(self):
         from shutil import copyfile
-        target_folder: str = self._options["export_folder"]
+        target_folder: str = self._options["export_folder"] + constants.PREFIX_EXPORT_DB_FOLDER
         print(self._options)
         assert "db_dir" in self._options, "DB Path not specified"
         db = self._options["db_dir"]
@@ -70,7 +70,8 @@ class RecipeSearch:
 
         import os
         needed_folders = [self._options["export_folder"] + constants.PREFIX_RECIPE_FOLDER,
-                          self._options["export_folder"] + constants.PREFIX_SEARCH_RESULT_FOLDER]
+                          self._options["export_folder"] + constants.PREFIX_SEARCH_RESULT_FOLDER,
+                          self._options["export_folder"] + constants.PREFIX_EXPORT_DB_FOLDER]
         for folder in needed_folders:
             if not os.path.exists(folder):
                 os.makedirs(folder)
