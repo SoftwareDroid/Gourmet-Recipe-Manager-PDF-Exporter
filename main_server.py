@@ -1,5 +1,6 @@
 import flask
 from flask import request, jsonify
+from flask_httpauth import HTTPTokenAuth
 import argparse
 from core.db_wrapper import load_all_recipes
 from customizing.custom_recipe_tags import init_tags
@@ -25,14 +26,33 @@ print(recipes)
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
+auth = HTTPTokenAuth(scheme='Bearer')
+# Idee ich erstelle Autoriserung skeys
+tokens = {
+    "secret-token-1": "john",
+    "secret-token-2": "susan"
+}
+
+@auth.verify_token
+def verify_token(token):
+    if token in tokens:
+        return tokens[token]
+
+@auth.get_user_roles
+def get_user_roles(user):
+    print(user)
+    if user == "john":
+        return ["admin","user"]
+    return ["user"]
+
 
 @app.route('/', methods=['GET'])
 def root():
     return jsonify({"api-version": API_VERSION})
 
 
-
 @app.route('/recipes', methods=['GET'])
+@auth.login_required
 # Return pairs of recipes and modified date
 def get_all_recipes():
     allRecipes = []
@@ -40,8 +60,10 @@ def get_all_recipes():
         allRecipes.append({"id": r.id(),"last-modified": r.last_modified()})
     return jsonify(allRecipes)
 
-
+# TODO Add Parameter last_modified => get_all_recipes can be remove
+# TODO fields: Only these fields are returned e.g id and title or image
 @app.route('/search', methods=['POST'])
+@auth.login_required
 def search():
     print("Got search")
     content = request.json
@@ -59,15 +81,24 @@ def search():
 def get_recipes_info(id):
     assert id == request.view_args['id']
 
+# Use SSL for encrypting so we can send password and so on
+app.run(ssl_context='adhoc')
 
-app.run()
-
-# Alle Rezepte Abrufen
-# Einzelens Rezept Abrufen
-# Rezept Nach PDF Konverieren
-
-# Permission Lese Berechtigung, Schreib Berechtigung, Admin Berechtigung (Berechtigungen der anderen ändern)
-# Benutzter Verwalten: Name, Password, Berechtigungslevel (Read, Write, Admin)
+# TODO Blueprints https://stackoverflow.com/questions/15231359/split-python-flask-app-into-multiple-files
+# Die einzelen Methoden aufteilen
+#### Wichtig nicht in ein Plu
+# Endpunkte
+# A. Rezepte änder abrufen
+# B. Search auf bestimme Felder reduzieren
+# C. Autorisierung (Admin,Read, Write)
+# TODO Rezepte lösche sollte ein anderes level sein als z. B favorit Rezpe ändern
+# E. Rezepte in PDFs umwandeln und abrufen
+# F. Statiskten
+# Abrufen
+# Ändern
+# G: Benutzer Endpunkt
+# Berechtigungen und lsit abrufen
+# Passwort ändern
 
 
 

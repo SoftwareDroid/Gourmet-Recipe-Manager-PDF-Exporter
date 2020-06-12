@@ -13,6 +13,8 @@ python-slugify = "*"
 flask = "*"
 pytest = "*"
 requests = "*"
+flask-httpauth = "*"
+pyopenssl = "*"
 
 [requires]
 python_version = "3.7.6"

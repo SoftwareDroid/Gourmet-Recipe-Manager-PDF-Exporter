@@ -1,18 +1,18 @@
 import requests
 import json
 
-base_url = 'http://localhost:5000/'
+base_url = 'https://localhost:5000/'
 def test_search():
     url = base_url + "search"
 
     # Additional headers.
-    headers = {'Content-Type': 'application/json'}
-
+    headers = {'Content-Type': 'application/json',"Authorization": "Bearer secret-token-1"}
     # Body
     payload = dict(ids=[0, 1, 2])
     print(url)
     # convert dict to json by json.dumps() for body data.
-    resp = requests.post(url, headers=headers, data=json.dumps(payload, indent=4))
+
+    resp = requests.post(url, headers=headers, data=json.dumps(payload, indent=4),verify=False)
     # Validate response headers and body contents, e.g. status code.
     print(resp.status_code)
     assert resp.status_code == 200
