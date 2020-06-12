@@ -1,9 +1,11 @@
 from flask_jwt import jwt_required, current_identity
 from . import user
 from flask import request, jsonify
-from app.model.user_database import users
 
 # file: server/app/admin/views.py
+
+
+
 @user.route('/login', methods=['POST'])
 def login():
     if not request.is_json:

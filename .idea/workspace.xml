@@ -2,60 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a08f38d6-a34e-4449-bd95-b52ddfe43d98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/admin/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/admin/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/model/user_database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/user/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/user/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/.pytest_cache/CACHEDIR.TAG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/.pytest_cache/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/cache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/core/db_wrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/core/recipe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/core/tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/core/validate_filename.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/export/pdf_creater.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/hint_for_customizing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/models/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/server/recipes_to_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/server/user_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/templates/materialize_template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/templates/search_result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/tests/App_Test.postman_collection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/tests/test_rest_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pytest_cache/CACHEDIR.TAG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pytest_cache/README.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/model/authenticate_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/model/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/model/user_object.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/my_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/init_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/db_wrapper.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/recipe.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/tags.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/validate_filename.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/customizing/custom_recipe_tags.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/customizing/custum_recipe_searches.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/customizing/parition_filter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export/pdf_creater.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hint_for_customizing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/main_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/login_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/recipes_to_json.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/materialize_template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/search_result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/App_Test.postman_collection.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_rest_api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/user_database.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +55,27 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.run">
+    <configuration name="Create Admin" type="PythonConfigurationType" factoryName="Python">
+      <module name="Gourmet_Recipe_Exporter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.local/share/virtualenvs/Gourmet_Recipe_Exporter-QN-CIiFv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/init_db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="auth_example" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Gourmet_Recipe_Exporter" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,6 +184,7 @@
     <list>
       <item itemvalue="Python.main_server" />
       <item itemvalue="Python.run" />
+      <item itemvalue="Python.Create Admin" />
       <item itemvalue="Python.test_rest_api" />
       <item itemvalue="Python.auth_example" />
       <item itemvalue="Python.main" />
@@ -238,34 +221,34 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="298" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591964644737">
+    <state x="298" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591973740506">
       <screen x="0" y="27" width="1680" height="1023" />
     </state>
-    <state x="298" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1680.1023@0.27.1680.1023" timestamp="1591964644737" />
-    <state x="528" y="340" width="614" height="410" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591890501040">
+    <state x="298" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1680.1023@0.27.1680.1023" timestamp="1591973740506" />
+    <state x="528" y="340" width="614" height="410" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591974602682">
       <screen x="0" y="27" width="1680" height="1023" />
     </state>
-    <state x="528" y="340" width="614" height="410" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1680.1023@0.27.1680.1023" timestamp="1591890501040" />
+    <state x="528" y="340" width="614" height="410" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1680.1023@0.27.1680.1023" timestamp="1591974602682" />
     <state x="627" y="284" width="424" height="522" key="FileChooserDialogImpl" timestamp="1584900469743">
       <screen x="0" y="27" width="1680" height="1023" />
     </state>
     <state x="627" y="284" width="424" height="522" key="FileChooserDialogImpl/0.27.1680.1023@0.27.1680.1023" timestamp="1584900469743" />
-    <state width="1657" height="261" key="GridCell.Tab.0.bottom" timestamp="1591964893370">
+    <state width="1657" height="261" key="GridCell.Tab.0.bottom" timestamp="1591977047160">
       <screen x="0" y="27" width="1680" height="1023" />
     </state>
-    <state width="1657" height="261" key="GridCell.Tab.0.bottom/0.27.1680.1023@0.27.1680.1023" timestamp="1591964893370" />
-    <state width="1657" height="261" key="GridCell.Tab.0.center" timestamp="1591964893369">
+    <state width="1657" height="261" key="GridCell.Tab.0.bottom/0.27.1680.1023@0.27.1680.1023" timestamp="1591977047160" />
+    <state width="1657" height="261" key="GridCell.Tab.0.center" timestamp="1591977047159">
       <screen x="0" y="27" width="1680" height="1023" />
     </state>
-    <state width="1657" height="261" key="GridCell.Tab.0.center/0.27.1680.1023@0.27.1680.1023" timestamp="1591964893369" />
-    <state width="1657" height="261" key="GridCell.Tab.0.left" timestamp="1591964893369">
+    <state width="1657" height="261" key="GridCell.Tab.0.center/0.27.1680.1023@0.27.1680.1023" timestamp="1591977047159" />
+    <state width="1657" height="261" key="GridCell.Tab.0.left" timestamp="1591977047159">
       <screen x="0" y="27" width="1680" height="1023" />
     </state>
-    <state width="1657" height="261" key="GridCell.Tab.0.left/0.27.1680.1023@0.27.1680.1023" timestamp="1591964893369" />
-    <state width="1657" height="261" key="GridCell.Tab.0.right" timestamp="1591964893370">
+    <state width="1657" height="261" key="GridCell.Tab.0.left/0.27.1680.1023@0.27.1680.1023" timestamp="1591977047159" />
+    <state width="1657" height="261" key="GridCell.Tab.0.right" timestamp="1591977047160">
       <screen x="0" y="27" width="1680" height="1023" />
     </state>
-    <state width="1657" height="261" key="GridCell.Tab.0.right/0.27.1680.1023@0.27.1680.1023" timestamp="1591964893370" />
+    <state width="1657" height="261" key="GridCell.Tab.0.right/0.27.1680.1023@0.27.1680.1023" timestamp="1591977047160" />
     <state width="1657" height="328" key="GridCell.Tab.1.bottom" timestamp="1591947267760">
       <screen x="0" y="27" width="1680" height="1023" />
     </state>
@@ -282,6 +265,10 @@
       <screen x="0" y="27" width="1680" height="1023" />
     </state>
     <state width="1657" height="328" key="GridCell.Tab.1.right/0.27.1680.1023@0.27.1680.1023" timestamp="1591947267760" />
+    <state x="503" y="251" width="672" height="678" key="search.everywhere.popup" timestamp="1591974076659">
+      <screen x="0" y="27" width="1680" height="1023" />
+    </state>
+    <state x="503" y="251" width="672" height="678" key="search.everywhere.popup/0.27.1680.1023@0.27.1680.1023" timestamp="1591974076659" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
