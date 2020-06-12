@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a08f38d6-a34e-4449-bd95-b52ddfe43d98" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/admin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/model/user_database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/user/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/user/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/.pytest_cache/CACHEDIR.TAG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/.pytest_cache/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/core/db_wrapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/core/recipe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/core/tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/core/validate_filename.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/export/pdf_creater.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/hint_for_customizing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/models/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/server/recipes_to_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/server/user_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/templates/materialize_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/templates/search_result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/tests/App_Test.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/tests/test_rest_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pytest_cache/CACHEDIR.TAG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pytest_cache/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/db_wrapper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/recipe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/validate_filename.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/customizing/custom_recipe_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/customizing/custum_recipe_searches.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/customizing/parition_filter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/export/pdf_creater.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hint_for_customizing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/main_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/login_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/recipes_to_json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/materialize_template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/search_result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/App_Test.postman_collection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_rest_api.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1R8dEnd8APmTV0eHGRvGpvE7XPx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/system/linux/temp/gourmet-master" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/model" />
+      <recent name="$PROJECT_DIR$/old" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$PROJECT_DIR$/gourmet_recipe_exporter" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.run">
+    <configuration name="auth_example" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Gourmet_Recipe_Exporter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.local/share/virtualenvs/Gourmet_Recipe_Exporter-QN-CIiFv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/auth_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Gourmet_Recipe_Exporter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/old/main.py" />
+      <option name="PARAMETERS" value="-db_dir $USER_HOME$/.gourmet/recipes.db -export_dir $USER_HOME$/system/share/GourmetFoodRecipeFolder -include_images -link_dir &quot;file:///storage/6730-2A4A/GourmetFoodPlaner&quot; -disable_cache -builder &quot;Patrick Mispelhorn (builder)&quot;" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_server" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Gourmet_Recipe_Exporter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.local/share/virtualenvs/Gourmet_Recipe_Exporter-QN-CIiFv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/old/main_server.py" />
+      <option name="PARAMETERS" value="-db_dir $USER_HOME$/.gourmet/recipes.db" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Gourmet_Recipe_Exporter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.local/share/virtualenvs/Gourmet_Recipe_Exporter-QN-CIiFv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="-shell -shell" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_rest_api" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Gourmet_Recipe_Exporter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.local/share/virtualenvs/Gourmet_Recipe_Exporter-QN-CIiFv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_rest_api.py" />
+      <option name="PARAMETERS" value="-db_dir $USER_HOME$/.gourmet/recipes.db" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main_server" />
+      <item itemvalue="Python.run" />
+      <item itemvalue="Python.test_rest_api" />
+      <item itemvalue="Python.auth_example" />
+      <item itemvalue="Python.main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a08f38d6-a34e-4449-bd95-b52ddfe43d98" name="Default Changelist" comment="" />
+      <created>1569052547535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569052547535</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="298" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591964644737">
+      <screen x="0" y="27" width="1680" height="1023" />
+    </state>
+    <state x="298" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1680.1023@0.27.1680.1023" timestamp="1591964644737" />
+    <state x="528" y="340" width="614" height="410" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591890501040">
+      <screen x="0" y="27" width="1680" height="1023" />
+    </state>
+    <state x="528" y="340" width="614" height="410" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1680.1023@0.27.1680.1023" timestamp="1591890501040" />
+    <state x="627" y="284" width="424" height="522" key="FileChooserDialogImpl" timestamp="1584900469743">
+      <screen x="0" y="27" width="1680" height="1023" />
+    </state>
+    <state x="627" y="284" width="424" height="522" key="FileChooserDialogImpl/0.27.1680.1023@0.27.1680.1023" timestamp="1584900469743" />
+    <state width="1657" height="261" key="GridCell.Tab.0.bottom" timestamp="1591964893370">
+      <screen x="0" y="27" width="1680" height="1023" />
+    </state>
+    <state width="1657" height="261" key="GridCell.Tab.0.bottom/0.27.1680.1023@0.27.1680.1023" timestamp="1591964893370" />
+    <state width="1657" height="261" key="GridCell.Tab.0.center" timestamp="1591964893369">
+      <screen x="0" y="27" width="1680" height="1023" />
+    </state>
+    <state width="1657" height="261" key="GridCell.Tab.0.center/0.27.1680.1023@0.27.1680.1023" timestamp="1591964893369" />
+    <state width="1657" height="261" key="GridCell.Tab.0.left" timestamp="1591964893369">
+      <screen x="0" y="27" width="1680" height="1023" />
+    </state>
+    <state width="1657" height="261" key="GridCell.Tab.0.left/0.27.1680.1023@0.27.1680.1023" timestamp="1591964893369" />
+    <state width="1657" height="261" key="GridCell.Tab.0.right" timestamp="1591964893370">
+      <screen x="0" y="27" width="1680" height="1023" />
+    </state>
+    <state width="1657" height="261" key="GridCell.Tab.0.right/0.27.1680.1023@0.27.1680.1023" timestamp="1591964893370" />
+    <state width="1657" height="328" key="GridCell.Tab.1.bottom" timestamp="1591947267760">
+      <screen x="0" y="27" width="1680" height="1023" />
+    </state>
+    <state width="1657" height="328" key="GridCell.Tab.1.bottom/0.27.1680.1023@0.27.1680.1023" timestamp="1591947267760" />
+    <state width="1657" height="328" key="GridCell.Tab.1.center" timestamp="1591947267759">
+      <screen x="0" y="27" width="1680" height="1023" />
+    </state>
+    <state width="1657" height="328" key="GridCell.Tab.1.center/0.27.1680.1023@0.27.1680.1023" timestamp="1591947267759" />
+    <state width="1657" height="328" key="GridCell.Tab.1.left" timestamp="1591947267759">
+      <screen x="0" y="27" width="1680" height="1023" />
+    </state>
+    <state width="1657" height="328" key="GridCell.Tab.1.left/0.27.1680.1023@0.27.1680.1023" timestamp="1591947267759" />
+    <state width="1657" height="328" key="GridCell.Tab.1.right" timestamp="1591947267760">
+      <screen x="0" y="27" width="1680" height="1023" />
+    </state>
+    <state width="1657" height="328" key="GridCell.Tab.1.right/0.27.1680.1023@0.27.1680.1023" timestamp="1591947267760" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/old/search.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/old/tests/test_rest_api.py</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

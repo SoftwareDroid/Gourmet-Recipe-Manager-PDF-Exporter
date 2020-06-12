@@ -1,7 +1,7 @@
 from weasyprint.document import DocumentMetadata
-from core.recipe import Recipe
+from old.core.recipe import Recipe
 from weasyprint import HTML
-import constants
+from old import constants
 from jinja2 import Template
 from typing import Optional
 

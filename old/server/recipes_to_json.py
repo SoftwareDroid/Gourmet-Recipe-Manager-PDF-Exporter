@@ -1,4 +1,4 @@
-from core.recipe import Recipe
+from old.core.recipe import Recipe
 
 def recipes_to_json(recipe: Recipe):
     return {"id": recipe.id(),

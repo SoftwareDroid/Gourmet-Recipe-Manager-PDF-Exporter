@@ -1,7 +1,7 @@
 from typing import Sequence, Optional
 import base64
 from humanfriendly import format_timespan
-from core.tags import RecipeTag, all_tags
+from old.core.tags import RecipeTag, all_tags
 import re
 
 
@@ -122,7 +122,7 @@ class Recipe:
 
 
     def get_file_name(self):
-        from core.validate_filename import convert_to_validate_filename
+        from old.core.validate_filename import convert_to_validate_filename
         return convert_to_validate_filename(self.title()) + ".pdf"
 
     def get_grouped_ingredients(self) -> Sequence[IngredientGroup]:

@@ -1,9 +1,9 @@
-from core.recipe import Recipe
+from old.core.recipe import Recipe
 from typing import List, Tuple, Callable, Optional
-from export.pdf_creater import create_recipe_pdf, create_search_result
-import constants
-from cache import Cache
-from core.validate_filename import convert_to_validate_filename
+from old.export.pdf_creater import create_recipe_pdf, create_search_result
+from old import constants
+from old.cache import Cache
+from old.core.validate_filename import convert_to_validate_filename
 
 
 class SearchQuery:

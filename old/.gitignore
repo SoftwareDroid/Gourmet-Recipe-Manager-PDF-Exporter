@@ -6,6 +6,9 @@
 .AppleDouble
 .LSOverride
 
+cert.pem
+key.pem
+
 auto_run.sh
 cache/
 

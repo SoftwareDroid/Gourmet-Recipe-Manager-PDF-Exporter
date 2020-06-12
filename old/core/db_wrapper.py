@@ -1,6 +1,6 @@
 
 from typing import Sequence
-from core.recipe import Recipe, Ingredient
+from old.core.recipe import Recipe, Ingredient
 
 
 def load_all_recipes(db_dir: str) -> Sequence[Recipe]:

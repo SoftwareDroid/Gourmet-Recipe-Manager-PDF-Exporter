@@ -1,12 +1,12 @@
-from core.db_wrapper import load_all_recipes
-from search import RecipeSearch
+from old.core.db_wrapper import load_all_recipes
+from old.search import RecipeSearch
 import argparse
-from cache import Cache
+from old.cache import Cache
 
 print("Start Gourmet Recipe Exporter v1")
 # Abort program and print error in case if the customization isn't setup correctly
-from customizing.custom_recipe_tags import init_tags
-from customizing.custom_recipe_searches import queries
+from old.customizing.custom_recipe_tags import init_tags
+from old.customizing.custom_recipe_searches import queries
 
 # Create all custom tags
 init_tags()

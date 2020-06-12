@@ -15,6 +15,9 @@ pytest = "*"
 requests = "*"
 flask-httpauth = "*"
 pyopenssl = "*"
+flask-sqlalchemy = "*"
+flask-script = "*"
+flask-jwt = "*"
 
 [requires]
 python_version = "3.7.6"

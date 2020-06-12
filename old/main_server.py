@@ -26,24 +26,10 @@ print(recipes)
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
-auth = HTTPTokenAuth(scheme='Bearer')
 # Idee ich erstelle Autoriserung skeys
-tokens = {
-    "secret-token-1": "john",
-    "secret-token-2": "susan"
-}
 
-@auth.verify_token
-def verify_token(token):
-    if token in tokens:
-        return tokens[token]
 
-@auth.get_user_roles
-def get_user_roles(user):
-    print(user)
-    if user == "john":
-        return ["admin","user"]
-    return ["user"]
+
 
 
 @app.route('/', methods=['GET'])
@@ -81,9 +67,10 @@ def search():
 def get_recipes_info(id):
     assert id == request.view_args['id']
 
+from server.user_service import user_service
 # Use SSL for encrypting so we can send password and so on
-app.run(ssl_context='adhoc')
-
+app.register_blueprint(user_service)
+app.run(ssl_context=('/home/patrick/projects/Gourmet_Recipe_Exporter/cert.pem', '/home/patrick/projects/Gourmet_Recipe_Exporter/key.pem'))
 # TODO Blueprints https://stackoverflow.com/questions/15231359/split-python-flask-app-into-multiple-files
 # Die einzelen Methoden aufteilen
 #### Wichtig nicht in ein Plu
