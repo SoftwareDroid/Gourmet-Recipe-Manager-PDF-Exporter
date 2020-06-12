@@ -5,7 +5,6 @@ from cache import Cache
 
 print("Start Gourmet Recipe Exporter v1")
 # Abort program and print error in case if the customization isn't setup correctly
-import hint_for_customizing
 from customizing.custom_recipe_tags import init_tags
 from customizing.custom_recipe_searches import queries
 

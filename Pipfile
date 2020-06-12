@@ -10,6 +10,9 @@ jinja2 = "*"
 weasyprint = "*"
 humanfriendly = "*"
 python-slugify = "*"
+flask = "*"
+pytest = "*"
+requests = "*"
 
 [requires]
-python_version = "3.6"
+python_version = "3.7.6"

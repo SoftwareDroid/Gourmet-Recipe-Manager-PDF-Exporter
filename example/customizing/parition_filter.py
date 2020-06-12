@@ -1,4 +1,4 @@
-from core.recipe import Recipe
+from core import Recipe
 
 def only_tag(tag :str):
     def _filter(recipe: Recipe):

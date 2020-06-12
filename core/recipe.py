@@ -120,6 +120,7 @@ class Recipe:
     def has_unknown_cooktime(self):
         return (self._preptime + self._cooktime) <= 0
 
+
     def get_file_name(self):
         from core.validate_filename import convert_to_validate_filename
         return convert_to_validate_filename(self.title()) + ".pdf"
