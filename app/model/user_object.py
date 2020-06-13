@@ -7,7 +7,7 @@ class User(db.Model):
     username = db.Column(db.String(64), index=True, unique=True)
     token = db.Column(db.String(128), index=True, unique=True)
     # A User can only have one role
-    role = db.Column(db.String(64), index=True, unique=True)
+    role = db.Column(db.String(64), index=True, unique=False)
     #password_hash = db.Column(db.String(128))
 
     def toJSON(self):

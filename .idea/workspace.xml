@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a08f38d6-a34e-4449-bd95-b52ddfe43d98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/model/authenticate_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/model/db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/model/user_object.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/my_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/init_db.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/admin/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/model/user_database.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/authenticate_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/authenticate_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/user_object.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/user_object.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/my_app.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/init_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/init_db.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,22 +228,22 @@
       <screen x="0" y="27" width="1680" height="1023" />
     </state>
     <state x="627" y="284" width="424" height="522" key="FileChooserDialogImpl/0.27.1680.1023@0.27.1680.1023" timestamp="1584900469743" />
-    <state width="1657" height="261" key="GridCell.Tab.0.bottom" timestamp="1591977047160">
+    <state width="1657" height="261" key="GridCell.Tab.0.bottom" timestamp="1592040866011">
       <screen x="0" y="27" width="1680" height="1023" />
     </state>
-    <state width="1657" height="261" key="GridCell.Tab.0.bottom/0.27.1680.1023@0.27.1680.1023" timestamp="1591977047160" />
-    <state width="1657" height="261" key="GridCell.Tab.0.center" timestamp="1591977047159">
+    <state width="1657" height="261" key="GridCell.Tab.0.bottom/0.27.1680.1023@0.27.1680.1023" timestamp="1592040866011" />
+    <state width="1657" height="261" key="GridCell.Tab.0.center" timestamp="1592040866010">
       <screen x="0" y="27" width="1680" height="1023" />
     </state>
-    <state width="1657" height="261" key="GridCell.Tab.0.center/0.27.1680.1023@0.27.1680.1023" timestamp="1591977047159" />
-    <state width="1657" height="261" key="GridCell.Tab.0.left" timestamp="1591977047159">
+    <state width="1657" height="261" key="GridCell.Tab.0.center/0.27.1680.1023@0.27.1680.1023" timestamp="1592040866010" />
+    <state width="1657" height="261" key="GridCell.Tab.0.left" timestamp="1592040866010">
       <screen x="0" y="27" width="1680" height="1023" />
     </state>
-    <state width="1657" height="261" key="GridCell.Tab.0.left/0.27.1680.1023@0.27.1680.1023" timestamp="1591977047159" />
-    <state width="1657" height="261" key="GridCell.Tab.0.right" timestamp="1591977047160">
+    <state width="1657" height="261" key="GridCell.Tab.0.left/0.27.1680.1023@0.27.1680.1023" timestamp="1592040866010" />
+    <state width="1657" height="261" key="GridCell.Tab.0.right" timestamp="1592040866011">
       <screen x="0" y="27" width="1680" height="1023" />
     </state>
-    <state width="1657" height="261" key="GridCell.Tab.0.right/0.27.1680.1023@0.27.1680.1023" timestamp="1591977047160" />
+    <state width="1657" height="261" key="GridCell.Tab.0.right/0.27.1680.1023@0.27.1680.1023" timestamp="1592040866011" />
     <state width="1657" height="328" key="GridCell.Tab.1.bottom" timestamp="1591947267760">
       <screen x="0" y="27" width="1680" height="1023" />
     </state>
@@ -281,6 +276,10 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/old/tests/test_rest_api.py</url>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/model/authenticate_user.py</url>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -7,6 +7,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from app.admin import admin
 from app.model.db import db
+
 #from app.model.user_database import authenticate, identity
 # skipping over jwt authenticate() and identity() creation
 # https://pythonhosted.org/Flask-JWT/
