@@ -14,6 +14,8 @@ def my_function():
         db.session.commit()
         print("Added Admin user Patrick with token:", token)
 
-
+#TODO Check if file already exits create Permission and default Role Table
+# Permission Table (ID, Name, Defaultlchemy tutorialValue)
+# RoleToPermission (RoleID,PermissionID, Value)
 
 my_function()
